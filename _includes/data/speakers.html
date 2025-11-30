@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="row">
-            {% for post in site.data.twenty_25.speakers %}
+            {% for post in site.data.speakers %}
                 <div class="col-md-3 col-sm-6 speakers-item">
                     <a href="#{{ post.name }}" class="speakers-link" data-toggle="modal">
                         <div class="speakers-hover">
@@ -16,12 +16,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="../css/2025_style/img/speaker/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                        <img src="../css/img/speaker/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="speakers-caption">
                         <h4>{{ post.title }}</h4>
                         <a class="text-muted" href="{{ post.url }}">{{ post.subtitle }}</a>
-                        <!-- <p class="text-muted">{{ post.subtitle }}</p> -->
                     </div>
                 </div>
             {% endfor %}
