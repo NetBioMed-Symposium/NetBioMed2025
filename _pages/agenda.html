@@ -1,6 +1,6 @@
 ---
-layout: 2025_default
-permalink: /2025/agenda
+layout: default
+permalink: /agenda
 title: Agenda
 ---
     <!--background color-->
@@ -20,7 +20,7 @@ title: Agenda
                 </tr>
             </thead>
 
-            {% for agenda in site.data.twenty_25.agendas_1 %}
+            {% for agenda in site.data.agenda %}
                 <tr>
                     <td>{{ agenda.time }}</td>
                     <td><u>{{ agenda.title }}</u><br><b>{{ agenda.speaker }}</b><br><i>{{ agenda.position }}</i><br></td>

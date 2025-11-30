@@ -1,6 +1,6 @@
 ---
-layout: 2025_default
-permalink: /2025/team
+layout: default
+permalink: /team
 title: Team Member
 ---
   <!--background color-->
@@ -12,7 +12,7 @@ title: Team Member
   <section class="cf team-container team-container-top black-frame">
     <h1 class="team-h1">Symposium Chairs</h1>
   
-    {% for team in site.data.twenty_25.teams_1 %}
+    {% for team in site.data.team_chairs %}
     <div class="team-member">
       <img class="team-photo" src="../css/img/team/{{ team.img }}">
       <!-- https://s.gravatar.com/avatar/0000000000000000?s=160 for Gravatar-->
@@ -26,7 +26,7 @@ title: Team Member
   <section class="cf team-container black-frame">
     <h1 class="team-h1">Program Chairs</h1>
 
-    {% for team in site.data.twenty_25.teams_3 %}
+    {% for team in site.data.team_program %}
     <div class="team-member">
       <img class="team-photo" src="../css/img/team/{{ team.img }}">
       <!-- https://s.gravatar.com/avatar/0000000000000000?s=160 for Gravatar-->
@@ -40,7 +40,7 @@ title: Team Member
   <section class="cf team-container black-frame">
     <h1 class="team-h1">Proceedings Chairs</h1>
 
-    {% for team in site.data.twenty_25.teams_4 %}
+    {% for team in site.data.team_proceedings %}
     <div class="team-member">
       <img class="team-photo" src="../css/img/team/{{ team.img }}">
       <!-- https://s.gravatar.com/avatar/0000000000000000?s=160 for Gravatar-->
@@ -54,7 +54,7 @@ title: Team Member
  <section class="cf team-container black-frame">
   <h1 class="team-h1">Publicity Chair</h1>
 
-  {% for team in site.data.twenty_25.teams_2 %}
+  {% for team in site.data.team_publicity %}
   <div class="team-member">
     <img class="team-photo" src="../css/img/team/{{ team.img }}">
     <!-- https://s.gravatar.com/avatar/0000000000000000?s=160 for Gravatar-->
@@ -68,7 +68,7 @@ title: Team Member
   <section class="cf team-container black-frame">
     <h1 class="team-h1">Illustrator</h1>
 
-    {% for team in site.data.twenty_25.teams_5 %}
+    {% for team in site.data.team_illustrator %}
     <div class="team-member">
       <img class="team-photo" src="../css/img/team/{{ team.img }}">
       <!-- https://s.gravatar.com/avatar/0000000000000000?s=160 for Gravatar-->
