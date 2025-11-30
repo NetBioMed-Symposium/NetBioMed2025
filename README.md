@@ -6,7 +6,3 @@
 _2025_pages
 _data
 _layouts
-
-## Need to Update
-<!--{% include 2026_data/intro.html %}-->
-<!--{% include 2026_data/sponsors.html %}-->
