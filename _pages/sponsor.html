@@ -22,7 +22,7 @@ title: Sponsors
         {% for sponsor in sponsor_list %}
             <div class="col-md-3 col-sm-6">
                 <a href="{{ sponsor.contact }}" class="portfolio-link" data-toggle="modal">
-                    <img src="../css/img/logos/{{ sponsor.img }}" class="img-responsive img-centered" alt="">
+                    <img src="{{ site.baseurl }}/css/img/logos/{{ sponsor.img }}" class="img-responsive img-centered" alt="">
                 </a>
             </div>
         {% endfor %}
